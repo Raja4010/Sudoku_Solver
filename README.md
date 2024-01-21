@@ -1,1 +1,3 @@
 # Sudoku_Solver
+Sudoku is a popular logic-based number-placement game. The objective is to fill a 9×9 grid with digits in such a way that each column, each row, and each of the nine 3×3 sub-grids contain all of the digits from 1 to 9. The puzzle setter provides a partially completed grid, which typically has a unique solution.
+The Backtracking algorithm is a general algorithm used for finding solutions to computational problems. It incrementally builds candidates for solutions, and abandons a candidate as soon as it determines that the candidate cannot be possibly extended to a valid solution. It’s a depth-first search algorithm. For our Sudoku solver, it will try each number in each cell and backtrack when the number does not lead to a solution.
